@@ -11,22 +11,6 @@ public abstract class Publication {
         this.price = price;
     }
 
-    public String getTitle() {
-        return this.title;
-    }
-
-    public String getPublisher() {
-        return this.publisher;
-    }
-
-    public int getNumberOfPages() {
-        return this.numberOfPages;
-    }
-
-    public double getPrice() {
-        return this.price;
-    }
-
     public String toString(String s) {
         String title = "Title: " + this.title;
         String publisher = "Publisher: " + this.publisher;
