@@ -11,6 +11,7 @@ public abstract class Publication {
         this.price = price;
     }
 
+    // Takes String s parameter for subclasses to utilize
     public String toString(String s) {
         String title = "Title: " + this.title;
         String publisher = "Publisher: " + this.publisher;
