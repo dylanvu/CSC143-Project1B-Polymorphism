@@ -11,8 +11,9 @@ public class Client {
                 new KidsMagazine("World History", "Treehouse Inc.", 43, 2.99, "7-12")
         };
 
+        System.out.println("List of publications:");
         for (Publication publication : publications) {
-            System.out.println(publication);
+            System.out.println("\t" + publication);
         }
     }
 }
