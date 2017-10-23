@@ -27,11 +27,11 @@ public abstract class Publication {
         return this.price;
     }
 
-    public String toString() {
+    public String toString(String s) {
         String title = "Title: " + this.title;
         String publisher = "Publisher: " + this.publisher;
         String pages = "Pages: " + this.numberOfPages;
         String price = "Price: $" + this.price;
-        return String.format("%s, %s, %s, %s", title, publisher, pages, price);
+        return String.format("%s, %s, %s, %s, %s", title, s, publisher, pages, price);
     }
 }
